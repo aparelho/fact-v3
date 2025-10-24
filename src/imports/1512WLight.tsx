@@ -27,12 +27,14 @@ function Component2034366675716C9104E4F86A03Dd14Cd3D20703979Bb4Cfdbba52F3140A435
       className="h-full min-h-full relative shrink-0 w-full"
       data-name="2034366675-716c9104e4f86a03dd14cd3d20703979bb4cfdbba52f3140a4357dd15e5d9117-d"
     >
-      <img
-        alt=""
+      <video
         className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full"
-        src={
-          img2034366675716C9104E4F86A03Dd14Cd3D20703979Bb4Cfdbba52F3140A4357Dd15E5D9117D
-        }
+        src="/videos/fact-weavy.mp4"
+        poster={img2034366675716C9104E4F86A03Dd14Cd3D20703979Bb4Cfdbba52F3140A4357Dd15E5D9117D}
+        autoPlay
+        muted
+        loop
+        playsInline
       />
     </div>
   );
