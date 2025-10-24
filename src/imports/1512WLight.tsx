@@ -1053,8 +1053,8 @@ function Main() {
       data-name="Main"
       style={{ gap: "2.65vw" }}
     >
-      {/* Supply Chain Section - From Industry to Final Customer */}
-      <section id="supply-chain" className="section section--supply-chain">
+      {/* Hero Section - From Industry to Final Customer */}
+      <section id="hero" className="section section--hero">
         <Section />
       </section>
 
@@ -5527,8 +5527,7 @@ function Frame1() {
 function Header2() {
   return (
     <header
-      id="hero"
-      className="absolute box-border content-stretch flex flex-col items-start pb-0 w-full header header--hero"
+      className="absolute box-border content-stretch flex flex-col items-start pb-0 w-full"
       data-name="Header"
       style={{
         left: "0.03vw",
