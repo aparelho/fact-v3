@@ -193,3 +193,34 @@ html {
 button:hover {
   opacity: 0.7;
 }
+
+/* ============================================
+   RESPONSIVE: Stack "From Industry" & "To Final Customer" vertically below 900px
+   ============================================ */
+
+@media (max-width: 900px) {
+  /* Target Section2 - the parent container with From Industry and To Final Customer */
+  div[data-name="Section"][style*="gap: 0.60vw"] {
+    flex-direction: column;
+    gap: 2rem !important;
+  }
+
+  /* Adjust Component5 and Component11 (the two image containers) for mobile */
+  div[data-name="Component 5"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 1 !important;
+  }
+
+  /* Ensure proper sizing on mobile */
+  div[style*="maxWidth: 49.21vw"],
+  div[style*="maxWidth: 49.47vw"] {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  /* Adjust aspect ratio for responsive images */
+  div[style*="aspect-square"] {
+    width: 100% !important;
+  }
+}
