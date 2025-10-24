@@ -1048,17 +1048,36 @@ function Section5() {
 
 function Main() {
   return (
-    <div
+    <main
       className="content-stretch flex flex-col items-center relative shrink-0 w-full"
       data-name="Main"
       style={{ gap: "2.65vw" }}
     >
-      <Section />
-      <Section1 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-    </div>
+      {/* Supply Chain Section - From Industry to Final Customer */}
+      <section id="supply-chain" className="section section--supply-chain">
+        <Section />
+      </section>
+
+      {/* Features/Benefits Section */}
+      <section id="features" className="section section--features">
+        <Section1 />
+      </section>
+
+      {/* Platform Section */}
+      <section id="platform" className="section section--platform">
+        <Section3 />
+      </section>
+
+      {/* Case Studies Section */}
+      <section id="case-studies" className="section section--case-studies">
+        <Section4 />
+      </section>
+
+      {/* Testimonials/Additional Section */}
+      <section id="testimonials" className="section section--testimonials">
+        <Section5 />
+      </section>
+    </main>
   );
 }
 
@@ -5270,12 +5289,27 @@ function Frame10() {
 
 function Frame2() {
   return (
-    <div className="content-stretch flex flex-col items-end relative shrink-0 w-[100vw]">
-      <Section6 />
-      <GridSection />
-      <Section7 />
-      <Frame10 />
-    </div>
+    <footer id="footer" className="footer content-stretch flex flex-col items-end relative shrink-0 w-[100vw]">
+      {/* FAQ/CTA Section */}
+      <div className="footer__section footer__section--cta">
+        <Section6 />
+      </div>
+
+      {/* Features Grid */}
+      <div className="footer__section footer__section--grid">
+        <GridSection />
+      </div>
+
+      {/* Additional Content */}
+      <div className="footer__section footer__section--content">
+        <Section7 />
+      </div>
+
+      {/* Footer Bottom */}
+      <div className="footer__bottom">
+        <Frame10 />
+      </div>
+    </footer>
   );
 }
 
@@ -5504,8 +5538,9 @@ function Frame1() {
 
 function Header2() {
   return (
-    <div
-      className="absolute box-border content-stretch flex flex-col items-start pb-0 w-full"
+    <header
+      id="hero"
+      className="absolute box-border content-stretch flex flex-col items-start pb-0 w-full header header--hero"
       data-name="Header"
       style={{
         left: "0.03vw",
@@ -5516,7 +5551,7 @@ function Header2() {
       }}
     >
       <Frame1 />
-    </div>
+    </header>
   );
 }
 

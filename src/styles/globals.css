@@ -195,17 +195,24 @@ button:hover {
 }
 
 /* ============================================
-   RESPONSIVE: Stack "From Industry" & "To Final Customer" vertically below 900px
+   RESPONSIVE: Section-specific adjustments
    ============================================ */
 
+/* Supply Chain Section - Stack From Industry & To Final Customer vertically below 900px */
 @media (max-width: 900px) {
+  #supply-chain {
+    width: 100% !important;
+  }
+
   /* Target Section2 - the parent container with From Industry and To Final Customer */
+  #supply-chain div[data-name="Section"][style*="gap: 0.60vw"],
   div[data-name="Section"][style*="gap: 0.60vw"] {
-    flex-direction: column;
+    flex-direction: column !important;
     gap: 2rem !important;
   }
 
   /* Adjust Component5 and Component11 (the two image containers) for mobile */
+  #supply-chain div[data-name="Component 5"],
   div[data-name="Component 5"] {
     width: 100% !important;
     max-width: 100% !important;
@@ -213,6 +220,8 @@ button:hover {
   }
 
   /* Ensure proper sizing on mobile */
+  #supply-chain div[style*="maxWidth: 49.21vw"],
+  #supply-chain div[style*="maxWidth: 49.47vw"],
   div[style*="maxWidth: 49.21vw"],
   div[style*="maxWidth: 49.47vw"] {
     max-width: 100% !important;
@@ -220,7 +229,33 @@ button:hover {
   }
 
   /* Adjust aspect ratio for responsive images */
+  #supply-chain div[style*="aspect-square"],
   div[style*="aspect-square"] {
     width: 100% !important;
   }
 }
+
+/* Responsive section padding and spacing */
+@media (max-width: 768px) {
+  section.section {
+    padding: 1rem;
+  }
+
+  #supply-chain,
+  #features,
+  #platform,
+  #case-studies,
+  #testimonials {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Section ID reference guide for developers */
+/*
+  #supply-chain    - From Industry to Final Customer
+  #features        - Features and Benefits
+  #platform        - Platform Overview
+  #case-studies    - Case Studies
+  #testimonials    - Testimonials/Additional Content
+  #footer          - Footer (Frame2 equivalent)
+*/
