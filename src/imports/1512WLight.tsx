@@ -5289,26 +5289,14 @@ function Frame10() {
 
 function Frame2() {
   return (
-    <footer id="footer" className="footer content-stretch flex flex-col items-end relative shrink-0 w-[100vw]">
-      {/* FAQ/CTA Section */}
-      <div className="footer__section footer__section--cta">
-        <Section6 />
-      </div>
-
-      {/* Features Grid */}
-      <div className="footer__section footer__section--grid">
-        <GridSection />
-      </div>
-
-      {/* Additional Content */}
-      <div className="footer__section footer__section--content">
-        <Section7 />
-      </div>
-
-      {/* Footer Bottom */}
-      <div className="footer__bottom">
-        <Frame10 />
-      </div>
+    <footer
+      id="footer"
+      className="content-stretch flex flex-col items-end relative shrink-0 w-[100vw]"
+    >
+      <Section6 />
+      <GridSection />
+      <Section7 />
+      <Frame10 />
     </footer>
   );
 }

@@ -250,12 +250,16 @@ button:hover {
   }
 }
 
-/* Section ID reference guide for developers */
+/* ============================================
+   SECTION ID REFERENCE GUIDE FOR DEVELOPERS
+   ============================================ */
+
 /*
+  #hero            - Main hero banner and headline
   #supply-chain    - From Industry to Final Customer
   #features        - Features and Benefits
   #platform        - Platform Overview
   #case-studies    - Case Studies
   #testimonials    - Testimonials/Additional Content
-  #footer          - Footer (Frame2 equivalent)
+  #footer          - Footer (contains all footer content)
 */
