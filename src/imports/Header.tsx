@@ -94,7 +94,7 @@ function Container2() {
 function Container3() {
   return (
     <div className="content-stretch flex flex-col h-[16.36px] items-start relative shrink-0 w-[8.22px]" data-name="Container">
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] max-h-[16.38px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[12.6px] text-nowrap text-white tracking-[0.14px]">    
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[16.38px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[12.6px] text-nowrap text-white tracking-[0.14px]">    
       </div>
     </div>
   );

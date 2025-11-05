@@ -43,7 +43,7 @@ function Container1() {
       className="content-stretch flex flex-col h-[141px] items-center relative shrink-0"
       data-name="Container"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] h-[141px] justify-center leading-[0] not-italic relative shrink-0 text-[60px] text-center text-white w-[884px]">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] h-[141px] justify-center leading-[0] not-italic relative shrink-0 text-[60px] text-center text-white w-[884px]">
         <p className="leading-[52px]">
           Fail-proof protection against next-generation
           counterfeits.
@@ -59,7 +59,7 @@ function Container2() {
       className="content-stretch flex flex-col items-center relative shrink-0"
       data-name="Container"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white">
         <p className="leading-[14px] whitespace-pre">
           Discover
         </p>

@@ -61,7 +61,7 @@ function Container1() {
       className="content-stretch flex flex-col h-[141px] items-center relative shrink-0"
       data-name="Container"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] h-[141px] justify-center leading-[0] not-italic relative shrink-0 text-[60px] text-center text-white w-[884px]">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] h-[141px] justify-center leading-[0] not-italic relative shrink-0 text-[60px] text-center text-white w-[884px]">
         <p className="leading-[52px]">
           Fail-proof protection against next-generation
           counterfeits.
@@ -77,7 +77,7 @@ function Container2() {
       className="content-stretch flex flex-col items-center relative shrink-0"
       data-name="Container"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white">
         <p className="leading-[14px] whitespace-pre">
           Discover
         </p>
@@ -413,7 +413,7 @@ function Container7() {
       className="content-stretch flex flex-col items-start relative shrink-0"
       data-name="Container"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#322d2a] text-[14px] text-nowrap tracking-[0.14px]">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#322d2a] text-[14px] text-nowrap tracking-[0.14px]">
         <p className="leading-[14px] whitespace-pre">
           Learn More
         </p>
@@ -1189,7 +1189,7 @@ function Container26() {
       className="content-stretch flex flex-col items-start relative shrink-0"
       data-name="Container"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#322d2a] text-[23.8px] text-nowrap">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#322d2a] text-[23.8px] text-nowrap">
         <p className="leading-[31.2px] whitespace-pre">
           Cryptography
         </p>
@@ -1316,7 +1316,7 @@ function Container29() {
       className="content-stretch flex flex-col items-start relative shrink-0"
       data-name="Container"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#322d2a] text-[23.8px] text-nowrap">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#322d2a] text-[23.8px] text-nowrap">
         <p className="leading-[31.2px] whitespace-pre">
           Cryptography
         </p>
@@ -1443,7 +1443,7 @@ function Container33() {
                   data-name="Container"
                 >
                   <div
-                    className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#322d2a]"
+                    className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#322d2a]"
                     style={{ fontSize: "1.57vw" }}
                   >
                     <p
@@ -1600,7 +1600,7 @@ function Heading2() {
       data-name="Heading 2"
     >
       <div
-        className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#141414] w-full"
+        className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#141414] w-full"
         style={{
           fontSize: "3.87vw",
           letterSpacing: "-0.039vw",
@@ -1631,7 +1631,7 @@ function Container37() {
       data-name="Container"
     >
       <div
-        className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#20201f] w-full"
+        className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#20201f] w-full"
         style={{
           fontSize: "1.49vw",
           letterSpacing: "-0.015vw",
@@ -2020,7 +2020,7 @@ function Container42() {
       data-name="Container"
     >
       <div
-        className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#20201f] w-full"
+        className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#20201f] w-full"
         style={{
           fontSize: "1.49vw",
           letterSpacing: "-0.015vw",
@@ -2613,7 +2613,7 @@ function Container59() {
       data-name="Container"
     >
       <div
-        className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#20201f] w-full"
+        className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#20201f] w-full"
         style={{
           fontSize: "1.49vw",
           letterSpacing: "-0.015vw",
@@ -3902,7 +3902,7 @@ function Container117() {
       data-name="Container"
     >
       <div
-        className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#fbfaf9]"
+        className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#fbfaf9]"
         style={{
           fontSize: "0.99vw",
           letterSpacing: "-0.012vw",
@@ -4067,7 +4067,7 @@ function Container123() {
       data-name="Container"
     >
       <div
-        className="flex flex-col font-['ABC_Monument_Grotesk:Medium',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#141414] text-nowrap"
+        className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#141414] text-nowrap"
         style={{
           fontSize: "1.19vw",
           letterSpacing: "-0.012vw",
@@ -4225,7 +4225,7 @@ function Container129() {
       style={{ right: "64.90vw", top: "-0.08vw" }}
     >
       <div
-        className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#cdcccb] text-nowrap"
+        className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#cdcccb] text-nowrap"
         style={{
           fontSize: "1.04vw",
           letterSpacing: "-0.010vw",
@@ -4313,7 +4313,7 @@ function Blur33() {
       style={{ height: "1.36vw", width: "2.84vw" }}
     >
       <div
-        className="absolute flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic text-[#cdcccb] text-center translate-x-[-50%] translate-y-[-50%]"
+        className="absolute flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic text-[#cdcccb] text-center translate-x-[-50%] translate-y-[-50%]"
         style={{
           height: "1.39vw",
           left: "calc(50% + 0.003vw)",
@@ -4337,7 +4337,7 @@ function Blur34() {
       style={{ height: "1.36vw", width: "4.91vw" }}
     >
       <div
-        className="absolute flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic text-[#cdcccb] text-center translate-x-[-50%] translate-y-[-50%]"
+        className="absolute flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic text-[#cdcccb] text-center translate-x-[-50%] translate-y-[-50%]"
         style={{
           height: "1.39vw",
           left: "calc(50% + 0.010vw)",
@@ -4451,7 +4451,7 @@ function Blur35() {
       style={{ height: "1.36vw", width: "2.49vw" }}
     >
       <div
-        className="absolute flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic text-[#cdcccb] text-center translate-x-[-50%] translate-y-[-50%]"
+        className="absolute flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic text-[#cdcccb] text-center translate-x-[-50%] translate-y-[-50%]"
         style={{
           height: "1.39vw",
           left: "calc(50% - 0.003vw)",
@@ -4475,7 +4475,7 @@ function Blur36() {
       style={{ height: "1.36vw", width: "4.91vw" }}
     >
       <div
-        className="absolute flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic text-[#cdcccb] text-center translate-x-[-50%] translate-y-[-50%]"
+        className="absolute flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic text-[#cdcccb] text-center translate-x-[-50%] translate-y-[-50%]"
         style={{
           height: "1.39vw",
           left: "calc(50% + 0.010vw)",
@@ -4605,7 +4605,7 @@ function Blur37() {
       className="blur-[0px] filter h-[20.58px] mb-[-0.01px] relative shrink-0 w-[54px]"
       data-name="Blur"
     >
-      <div className="absolute flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] h-[21px] justify-center leading-[0] left-[calc(50%+0.183px)] not-italic text-[#cdcccb] text-[15px] text-center top-[9.5px] tracking-[-0.158px] translate-x-[-50%] translate-y-[-50%] w-[54.366px]">
+      <div className="absolute flex flex-col font-['ABC Monument Grotesk',_sans-serif] h-[21px] justify-center leading-[0] left-[calc(50%+0.183px)] not-italic text-[#cdcccb] text-[15px] text-center top-[9.5px] tracking-[-0.158px] translate-x-[-50%] translate-y-[-50%] w-[54.366px]">
         <p className="leading-[18px]">Full</p>
       </div>
     </div>
@@ -4618,7 +4618,7 @@ function Blur38() {
       className="blur-[0px] filter h-[20.58px] mb-[-0.01px] relative shrink-0 w-[53.5px]"
       data-name="Blur"
     >
-      <div className="absolute flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] h-[21px] justify-center leading-[0] left-[calc(50%+0.377px)] not-italic text-[#cdcccb] text-[15px] text-center top-[9.75px] tracking-[-0.158px] translate-x-[-50%] translate-y-[-50%] w-[95px]">
+      <div className="absolute flex flex-col font-['ABC Monument Grotesk',_sans-serif] h-[21px] justify-center leading-[0] left-[calc(50%+0.377px)] not-italic text-[#cdcccb] text-[15px] text-center top-[9.75px] tracking-[-0.158px] translate-x-[-50%] translate-y-[-50%] w-[95px]">
         <p className="leading-[18px]">Traceability</p>
       </div>
     </div>
@@ -4723,7 +4723,7 @@ function Blur39() {
       className="blur-[0px] filter h-[20.58px] relative shrink-0 w-[38.67px]"
       data-name="Blur"
     >
-      <div className="absolute flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] h-[39px] justify-center leading-[0] left-[calc(50%+18.327px)] not-italic text-[#cdcccb] text-[15px] text-center top-[9.04px] tracking-[-0.158px] translate-x-[-50%] translate-y-[-50%] w-[207px]">
+      <div className="absolute flex flex-col font-['ABC Monument Grotesk',_sans-serif] h-[39px] justify-center leading-[0] left-[calc(50%+18.327px)] not-italic text-[#cdcccb] text-[15px] text-center top-[9.04px] tracking-[-0.158px] translate-x-[-50%] translate-y-[-50%] w-[207px]">
         <p className="leading-[18px]">
           {`Integrate with `}
           <br aria-hidden="true" />
@@ -4876,7 +4876,7 @@ function Container151() {
       className="content-stretch flex flex-col items-start relative shrink-0 w-full"
       data-name="Container"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
         <p className="leading-[19px] whitespace-pre">
           2025 FACT LLC.
         </p>
@@ -4914,7 +4914,7 @@ function Component2() {
       className="content-stretch flex items-start relative shrink-0"
       data-name="Component 2"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
         <p className="leading-[19px] whitespace-pre">
           Linkedin
         </p>
@@ -4951,7 +4951,7 @@ function Component27() {
       className="content-stretch flex items-start relative shrink-0"
       data-name="Component 2"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
         <p className="leading-[19px] whitespace-pre">Medium</p>
       </div>
     </div>
@@ -5010,7 +5010,7 @@ function Component28() {
       className="content-stretch flex items-start relative shrink-0"
       data-name="Component 2"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
         <p className="leading-[19px] whitespace-pre">
           Terms of Use
         </p>
@@ -5058,7 +5058,7 @@ function Component29() {
       className="content-stretch flex items-start relative shrink-0"
       data-name="Component 2"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
         <p className="leading-[19px] whitespace-pre">
           Privacy Policy
         </p>
@@ -5106,7 +5106,7 @@ function Component30() {
       className="content-stretch flex items-start relative shrink-0"
       data-name="Component 2"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
         <p className="leading-[19px] whitespace-pre">Support</p>
       </div>
     </div>
@@ -5141,7 +5141,7 @@ function Component31() {
       className="content-stretch flex items-start relative shrink-0"
       data-name="Component 2"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
         <p className="leading-[19px] whitespace-pre">
           TRUST CENTER
         </p>
@@ -5387,7 +5387,7 @@ function Link1() {
       className="content-stretch flex flex-col items-start relative shrink-0 w-[74px]"
       data-name="Link"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-center text-white tracking-[0.14px] w-full">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-center text-white tracking-[0.14px] w-full">
         <p className="leading-[18.2px]">Platform</p>
       </div>
     </div>
@@ -5411,7 +5411,7 @@ function Link2() {
       className="content-stretch flex flex-col items-start relative shrink-0 w-[95.2px]"
       data-name="Link"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-center text-white tracking-[0.14px] w-full">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-center text-white tracking-[0.14px] w-full">
         <p className="leading-[18.2px]">FAQ</p>
       </div>
     </div>
@@ -5435,7 +5435,7 @@ function Link3() {
       className="content-stretch flex flex-col items-start relative shrink-0 w-full"
       data-name="Link"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-center text-white tracking-[0.14px] w-[72px]">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-center text-white tracking-[0.14px] w-[72px]">
         <p className="leading-[18.2px]">Contact</p>
       </div>
     </div>
@@ -5459,7 +5459,7 @@ function Container171() {
       className="content-stretch flex flex-col h-[16.36px] items-start relative shrink-0 w-[8.22px]"
       data-name="Container"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] justify-center leading-[0] max-h-[16.38px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[12.6px] text-nowrap text-white tracking-[0.14px]">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[16.38px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[12.6px] text-nowrap text-white tracking-[0.14px]">
         <p className="leading-[16.38px] whitespace-pre">↗</p>
       </div>
     </div>
@@ -5472,7 +5472,7 @@ function Link4() {
       className="content-stretch flex items-start justify-between relative shrink-0 w-[80px]"
       data-name="Link"
     >
-      <div className="flex flex-col font-['ABC_Monument_Grotesk:Regular',_sans-serif] h-[19px] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-center text-white tracking-[0.14px] w-[67px]">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] h-[19px] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-center text-white tracking-[0.14px] w-[67px]">
         <p className="leading-[18.2px]">Try Demo</p>
       </div>
       <Container171 />
