@@ -4,6 +4,9 @@ export default {
       fontFamily: {
         monument: ['"ABC Monument Grotesk"', 'sans-serif'],
       },
+      screens: {
+        mobile: { max: '799px' },
+      },
     },
   },
 };

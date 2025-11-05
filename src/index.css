@@ -2800,3 +2800,9 @@ html, html * {
   font-synthesis: none;
   font-family: "ABC Monument Grotesk", Helvetica, sans-serif !important;
 }
+
+.hero-main-text,
+.hero-fucking-text {
+  font-size: calc(3.5vw + 4px) !important;
+  line-height: 0.9;
+}
