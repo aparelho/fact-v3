@@ -446,18 +446,10 @@ function Container115() {
         width: "100%",
       }}
     >
-      <div className="hidden lg:flex gap-[0.53vw] w-full justify-center">
-        <Component9 />
-        <Component20 />
-        <Component21 />
-        <Component22 />
-      </div>
-      <div className="flex lg:hidden flex-col gap-4 w-full px-4">
-        <Component9 />
-        <Component20 />
-        <Component21 />
-        <Component22 />
-      </div>
+      <Component9 />
+      <Component20 />
+      <Component21 />
+      <Component22 />
     </div>
   );
 }
