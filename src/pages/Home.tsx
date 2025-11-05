@@ -59,7 +59,7 @@ function Container1() {
       data-name="Container"
     >
       <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] h-[141px] justify-center leading-[0] not-italic relative shrink-0 text-[60px] text-center text-white w-[884px]">
-        <p className="leading-[52px] hero-fucking-text">
+        <p className="leading-[52px]">
           Fail-proof protection against next-generation
           counterfeits.
         </p>
