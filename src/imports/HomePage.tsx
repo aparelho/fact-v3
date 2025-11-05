@@ -5570,7 +5570,7 @@ function Header2() {
   );
 }
 
-export default function Component1512WLight() {
+export default function HomePage() {
   return (
     <div
       className="bg-white content-stretch flex flex-col items-start relative rounded-[6px] w-full overflow-x-hidden"

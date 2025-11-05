@@ -1,7 +1,7 @@
 import { useState, useEffect, Suspense, lazy } from "react";
 import { LogotypeShort, HeaderMenu } from "./imports/Header";
 
-const Component1512WLight = lazy(() => import("./imports/1512WLight"));
+const HomePage = lazy(() => import("./imports/HomePage"));
 
 function PageLoadingFallback() {
   return (
@@ -39,7 +39,7 @@ export default function App() {
       </div>
 
       <Suspense fallback={<PageLoadingFallback />}>
-        <Component1512WLight />
+        <HomePage />
       </Suspense>
     </div>
   );
