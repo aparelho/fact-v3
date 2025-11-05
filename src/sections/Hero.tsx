@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import svgPaths from "../imports/svg-hlcci3vugo";
-import img2034366675716C9104E4F86A03Dd14Cd3D20703979Bb4Cfdbba52F3140A4357Dd15E5D9117D from "figma:asset/e61c58d138968c18623887c0e30cd56a69783cc5.png";
-import imgRectangle15 from "figma:asset/98d1e015d5efdd53e68fa1f1b1410d62e66433c4.png";
+const img2034366675716C9104E4F86A03Dd14Cd3D20703979Bb4Cfdbba52F3140A4357Dd15E5D9117D = "/images/e61c58d138968c18623887c0e30cd56a69783cc5.webp";
+const imgRectangle15 = "/images/98d1e015d5efdd53e68fa1f1b1410d62e66433c4.webp";
 
 function Component2034366675716C9104E4F86A03Dd14Cd3D20703979Bb4Cfdbba52F3140A4357Dd15E5D9117D() {
   return (

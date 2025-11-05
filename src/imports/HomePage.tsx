@@ -1,19 +1,19 @@
 import { useState, useEffect } from "react";
 import svgPaths from "./svg-hlcci3vugo";
-import img2034366675716C9104E4F86A03Dd14Cd3D20703979Bb4Cfdbba52F3140A4357Dd15E5D9117D from "figma:asset/e61c58d138968c18623887c0e30cd56a69783cc5.png";
-import imgRectangle15 from "figma:asset/98d1e015d5efdd53e68fa1f1b1410d62e66433c4.png";
-import imgEdb855Dda7Eab5833221A45F45A89Dd441D8Deff3458X2160Jpg from "figma:asset/4e44b99cb00bf5a920fb089283164c8deeacc67b.png";
-import img7A6D5Af73Fa0A3092Bae24E3D38C1Ad46A1A6Be71500X998Jpg from "figma:asset/4e1e90d263b5bb92aac3118dccfa0e69f6b24dd0.png";
-import imgF5E1Ac24Bf5Bfb05D464C4527407De00A3E16D4A2400X2999Jpg from "figma:asset/c49de084b39b2cff9aa8ea87345072e39ba344bb.png";
-import imgImage3 from "figma:asset/a0997bdd3dbf37abb43045c7cf822af54c165ed3.png";
-import imgContainer from "figma:asset/72c2bfad0a7c156688eed0bcd65ec386306ec096.png";
-import img4NkUpfis0LyXyqSNi0CsrfQz8E0Png from "figma:asset/3c5a6bc35190d66fcdf07bc504caa45d204f6c75.png";
-import imgContainer1 from "figma:asset/6342139ca15243074e39038ac9460bc313f86ad6.png";
-import img0Ed1Ee9C76Aa7164Ba6B53186D9F90E0B2E0A3Bd2048X1365Png from "figma:asset/bf9ccffcc2ab41e86512602d76dbca7a2e2c7a57.png";
-import img8D5C1Ce737C9Bfe33D1336Dc835899Ecb063Fc82470X470Png from "figma:asset/19b5b0a05fc4b96f527678fe7891b8ca6d71d95c.png";
-import imgE6Fd6Fb5728Dae263599333187C6136449Df40D7470X470Png from "figma:asset/5574df6257cc48e67292897453cf871155078c2e.png";
-import imgE6Fd6Fb5728Dae263599333187C6136449Df40D7470X470Png1 from "figma:asset/b80f450171eb6ee106feb2474b9a52eaa4604007.png";
-import img3Cba9Cad0Db353Ace832E162Cd04F41Ed30F484A470X470Png from "figma:asset/629c0488774e6fc145726dd262979058092b4873.png";
+const img2034366675716C9104E4F86A03Dd14Cd3D20703979Bb4Cfdbba52F3140A4357Dd15E5D9117D = "/images/e61c58d138968c18623887c0e30cd56a69783cc5.webp";
+const imgRectangle15 = "/images/98d1e015d5efdd53e68fa1f1b1410d62e66433c4.webp";
+const imgEdb855Dda7Eab5833221A45F45A89Dd441D8Deff3458X2160Jpg = "/images/4e44b99cb00bf5a920fb089283164c8deeacc67b.webp";
+const img7A6D5Af73Fa0A3092Bae24E3D38C1Ad46A1A6Be71500X998Jpg = "/images/4e1e90d263b5bb92aac3118dccfa0e69f6b24dd0.webp";
+const imgF5E1Ac24Bf5Bfb05D464C4527407De00A3E16D4A2400X2999Jpg = "/images/c49de084b39b2cff9aa8ea87345072e39ba344bb.webp";
+const imgImage3 = "/images/a0997bdd3dbf37abb43045c7cf822af54c165ed3.webp";
+const imgContainer = "/images/72c2bfad0a7c156688eed0bcd65ec386306ec096.webp";
+const img4NkUpfis0LyXyqSNi0CsrfQz8E0Png = "/images/3c5a6bc35190d66fcdf07bc504caa45d204f6c75.webp";
+const imgContainer1 = "/images/6342139ca15243074e39038ac9460bc313f86ad6.webp";
+const img0Ed1Ee9C76Aa7164Ba6B53186D9F90E0B2E0A3Bd2048X1365Png = "/images/bf9ccffcc2ab41e86512602d76dbca7a2e2c7a57.webp";
+const img8D5C1Ce737C9Bfe33D1336Dc835899Ecb063Fc82470X470Png = "/images/19b5b0a05fc4b96f527678fe7891b8ca6d71d95c.webp";
+const imgE6Fd6Fb5728Dae263599333187C6136449Df40D7470X470Png = "/images/5574df6257cc48e67292897453cf871155078c2e.webp";
+const imgE6Fd6Fb5728Dae263599333187C6136449Df40D7470X470Png1 = "/images/b80f450171eb6ee106feb2474b9a52eaa4604007.webp";
+const img3Cba9Cad0Db353Ace832E162Cd04F41Ed30F484A470X470Png = "/images/629c0488774e6fc145726dd262979058092b4873.webp";
 import {
   Accordion,
   AccordionItem as ShadcnAccordionItem,

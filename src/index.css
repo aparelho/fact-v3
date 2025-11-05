@@ -2777,3 +2777,9 @@ button:hover {
     height: 0;
   }
 }
+
+html, html * {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+  font-synthesis: none;
+}
