@@ -1,4 +1,4 @@
-import svgPaths from "./svg-fc6x0lpad3";
+import svgPaths from "../../utils/svg-fc6x0lpad3";
 
 function Component1() {
   return (

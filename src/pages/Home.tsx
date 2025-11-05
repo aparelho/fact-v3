@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import svgPaths from "./svg-hlcci3vugo";
+import svgPaths from "../utils/svg-hlcci3vugo";
 const img2034366675716C9104E4F86A03Dd14Cd3D20703979Bb4Cfdbba52F3140A4357Dd15E5D9117D = "/images/e61c58d138968c18623887c0e30cd56a69783cc5.webp";
 const imgRectangle15 = "/images/98d1e015d5efdd53e68fa1f1b1410d62e66433c4.webp";
 const imgEdb855Dda7Eab5833221A45F45A89Dd441D8Deff3458X2160Jpg = "/images/4e44b99cb00bf5a920fb089283164c8deeacc67b.webp";
@@ -1382,30 +1382,34 @@ function AccordionItem1() {
 function Container33() {
   const faqItems = [
     {
-      question: "Cryptography",
+      question: "Tamper-Evident",
       answer:
-        "Every product is equipped with a secure NFC tag, uniquely linked to a blockchain record that cannot be altered or duplicated.",
+        "Our NFC tags are engineered with advanced tamper-evident technology that immediately destroys the tag if any attempt is made to remove, alter, or tamper with it, ensuring complete product integrity.",
     },
     {
-      question: "How does the verification process work?",
+      question: "Blockchain Verified",
       answer:
-        "Simply scan the NFC tag with your smartphone to instantly verify the product's authenticity through our blockchain-secured database.",
+        "Every product is secured by an immutable blockchain record that cannot be altered, duplicated, or forged, providing permanent verification of authenticity.",
     },
     {
-      question: "What happens if a counterfeit is detected?",
+      question: "No App Required",
       answer:
-        "Our system immediately flags suspicious items and alerts both the brand and relevant authorities, while providing you with a detailed authenticity report.",
+        "Simply scan the NFC tag with your smartphone's standard NFC reader—no special app needed. Instant verification works with any NFC-enabled device.",
     },
     {
-      question: "Can the tags be transferred or removed?",
+      question: "Global Tracking",
       answer:
-        "The NFC tags are designed with tamper-evident technology. Any attempt to remove or transfer them will permanently disable the tag and alert our system.",
+        "Track your products across the entire supply chain from manufacturing to delivery, with real-time location updates and complete transparency.",
     },
     {
-      question:
-        "Which industries can benefit from this technology?",
+      question: "Analytics Dashboard",
       answer:
-        "Our solution is ideal for luxury goods, pharmaceuticals, electronics, automotive parts, and any high-value products requiring authenticity verification.",
+        "Access comprehensive insights about your products, including authentication attempts, supply chain data, and customer engagement metrics.",
+    },
+    {
+      question: "Extended Durability",
+      answer:
+        "Our NFC tags are built to withstand extreme conditions including temperature fluctuations, humidity, and physical stress, ensuring long-lasting protection.",
     },
   ];
 

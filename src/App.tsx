@@ -1,7 +1,7 @@
 import { useState, useEffect, Suspense, lazy } from "react";
-import { LogotypeShort, HeaderMenu } from "./imports/Header";
+import { LogotypeShort, HeaderMenu } from "./components/layout/Header";
 
-const HomePage = lazy(() => import("./imports/HomePage"));
+const HomePage = lazy(() => import("./pages/Home"));
 
 function PageLoadingFallback() {
   return (
