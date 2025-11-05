@@ -2806,3 +2806,8 @@ html, html * {
   font-size: calc(3.5vw + 4px) !important;
   line-height: 0.9;
 }
+
+/* TEST: Red background */
+body {
+  background-color: red !important;
+}
