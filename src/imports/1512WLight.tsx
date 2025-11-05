@@ -1,6 +1,6 @@
+import { useState, useEffect } from "react";
 import svgPaths from "./svg-hlcci3vugo";
 import img2034366675716C9104E4F86A03Dd14Cd3D20703979Bb4Cfdbba52F3140A4357Dd15E5D9117D from "figma:asset/e61c58d138968c18623887c0e30cd56a69783cc5.png";
-import imgRectangle14 from "figma:asset/abf6cb48af4c8b13c454b40728ef2d90c4590483.png";
 import imgRectangle15 from "figma:asset/98d1e015d5efdd53e68fa1f1b1410d62e66433c4.png";
 import imgEdb855Dda7Eab5833221A45F45A89Dd441D8Deff3458X2160Jpg from "figma:asset/4e44b99cb00bf5a920fb089283164c8deeacc67b.png";
 import img7A6D5Af73Fa0A3092Bae24E3D38C1Ad46A1A6Be71500X998Jpg from "figma:asset/4e1e90d263b5bb92aac3118dccfa0e69f6b24dd0.png";
@@ -87,10 +87,18 @@ function Container2() {
 }
 
 function Component1() {
+  const handleDiscoverClick = () => {
+    const featuresSection = document.getElementById('features');
+    if (featuresSection) {
+      featuresSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div
-      className="backdrop-blur-[25px] backdrop-filter bg-[rgba(23,23,23,0.5)] box-border content-stretch flex items-center justify-center px-[22.4px] py-[17.5px] relative rounded-[18px] shrink-0"
+      className="backdrop-blur-[25px] backdrop-filter bg-[rgba(23,23,23,0.5)] box-border content-stretch flex items-center justify-center px-[22.4px] py-[17.5px] relative rounded-[18px] shrink-0 cursor-pointer"
       data-name="Component 1"
+      onClick={handleDiscoverClick}
     >
       <Container2 />
     </div>
@@ -138,11 +146,6 @@ function FotosDeProduto() {
           <img
             alt=""
             className="absolute max-w-none object-50%-50% object-cover rounded-[15px] size-full"
-            src={imgRectangle14}
-          />
-          <img
-            alt=""
-            className="absolute max-w-none object-50%-50% object-cover rounded-[15px] size-full"
             src={imgRectangle15}
           />
           <div className="absolute bg-[rgba(0,0,0,0.03)] inset-0 rounded-[15px]" />
@@ -156,7 +159,7 @@ function Frame480() {
   return (
     <div className="content-stretch flex gap-[6.942px] items-center relative shrink-0">
       <p className="font-['Switzer:Medium',_sans-serif] leading-[0.834] not-italic relative shrink-0 text-[10px] text-nowrap text-white whitespace-pre">
-        Case Study
+        Case Study (Coming Soon)
       </p>
     </div>
   );
@@ -266,10 +269,37 @@ function Frame489() {
 }
 
 function HeroProductHighlight() {
+  const [opacity, setOpacity] = useState(1);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolled = window.scrollY;
+      const heroHeight = window.innerHeight;
+      // Start fading when scroll exceeds 50% of hero height
+      const fadeStartPoint = heroHeight * 0.5;
+      // Complete fade at 100% of hero height
+      const fadeEndPoint = heroHeight;
+
+      if (scrolled < fadeStartPoint) {
+        setOpacity(1);
+      } else if (scrolled > fadeEndPoint) {
+        setOpacity(0);
+      } else {
+        // Linear interpolation between fadeStartPoint and fadeEndPoint
+        const fadeProgress = (scrolled - fadeStartPoint) / (fadeEndPoint - fadeStartPoint);
+        setOpacity(1 - fadeProgress);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div
-      className="absolute backdrop-blur-[24.295px] backdrop-filter bg-[rgba(55,57,57,0.5)] box-border content-stretch flex gap-[14px] h-[118px] items-start justify-center left-1/2 px-[6.942px] py-[8px] rounded-[15px] bottom-[35px] w-[355px] -translate-x-1/2"
+      className="absolute backdrop-blur-[24.295px] backdrop-filter bg-[rgba(55,57,57,0.5)] box-border content-stretch flex gap-[14px] h-[118px] items-start justify-center left-1/2 px-[6.942px] py-[8px] rounded-[15px] bottom-[35px] w-[355px] -translate-x-1/2 transition-opacity duration-100"
       data-name="Hero Product Highlight"
+      style={{ opacity }}
     >
       <FotosDeProduto />
       <Frame489 />
@@ -442,10 +472,8 @@ function Edb855Dda7Eab5833221A45F45A89Dd441D8Deff3458X2160Jpg() {
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <img
           alt=""
-          className="absolute h-full left-[-30%] max-w-none top-0 w-[160%]"
-          src={
-            imgEdb855Dda7Eab5833221A45F45A89Dd441D8Deff3458X2160Jpg
-          }
+          className="absolute h-full left-[-30%] max-w-none top-0 w-[160%] object-cover"
+          src="/images/Facility-Condition-Assessments_Image-1_1200x628.jpg"
         />
       </div>
     </div>
@@ -525,17 +553,16 @@ function Overlay() {
 function Component6() {
   return (
     <div
-      className="backdrop-blur-[25px] backdrop-filter bg-[rgba(23,23,23,0.5)] box-border content-stretch flex items-center justify-center pr-[0.26vw] relative rounded-[100px] shrink-0"
+      className="backdrop-blur-[25px] backdrop-filter bg-[rgba(23,23,23,0.5)] box-border content-stretch flex items-center justify-center relative rounded-[100px] shrink-0"
       data-name="Component 6"
       style={{
-        gap: "1.57vw",
         paddingLeft: "1.48vw",
-        paddingTop: "0.26vw",
-        paddingBottom: "0.26vw",
+        paddingRight: "1.48vw",
+        paddingTop: "1.5vw",
+        paddingBottom: "1.5vw",
       }}
     >
       <Container9 />
-      <Overlay />
     </div>
   );
 }
@@ -658,17 +685,16 @@ function Overlay1() {
 function Component10() {
   return (
     <div
-      className="backdrop-blur-[25px] backdrop-filter bg-[rgba(23,23,23,0.5)] box-border content-stretch flex items-center justify-center pr-[0.26vw] relative rounded-[100px] shrink-0"
+      className="backdrop-blur-[25px] backdrop-filter bg-[rgba(23,23,23,0.5)] box-border content-stretch flex items-center justify-center relative rounded-[100px] shrink-0"
       data-name="Component 6"
       style={{
-        gap: "1.57vw",
         paddingLeft: "1.48vw",
-        paddingTop: "0.26vw",
-        paddingBottom: "0.26vw",
+        paddingRight: "1.48vw",
+        paddingTop: "1.5vw",
+        paddingBottom: "1.5vw",
       }}
     >
       <Container11 />
-      <Overlay1 />
     </div>
   );
 }
