@@ -170,7 +170,7 @@ export default function Header1() {
   return (
     <div className="relative size-full" data-name="Header">
       <div className="size-full">
-        <div className="box-border content-stretch flex flex-col items-start pb-0 pt-[36px] px-[36px] relative size-full">
+        <div className="box-border content-stretch flex flex-col items-start pb-0 pt-[36px] px-[16px] sm:px-[20px] md:px-[28px] lg:px-[36px] relative size-full">
           <Frame1 />
         </div>
       </div>

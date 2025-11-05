@@ -43,8 +43,8 @@ function Container1() {
       className="content-stretch flex flex-col h-[141px] items-center relative shrink-0"
       data-name="Container"
     >
-      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] h-[141px] justify-center leading-[0] not-italic relative shrink-0 text-[60px] text-center text-white w-[884px]">
-        <p className="leading-[52px]">
+      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] h-auto lg:h-[141px] justify-center leading-[0] not-italic relative shrink-0 text-white text-center px-4 sm:px-6 lg:px-0 w-full lg:w-[884px]">
+        <p className="text-2xl sm:text-3xl md:text-4xl lg:text-[60px] leading-[28px] sm:leading-[36px] md:leading-[44px] lg:leading-[52px]">
           Fail-proof protection against next-generation
           counterfeits.
         </p>
@@ -276,7 +276,7 @@ function HeroProductHighlight() {
 
   return (
     <div
-      className="absolute backdrop-blur-[24.295px] backdrop-filter bg-[rgba(55,57,57,0.5)] box-border content-stretch flex gap-[14px] h-[118px] items-start justify-center left-1/2 px-[6.942px] py-[8px] rounded-[15px] bottom-[35px] w-[355px] -translate-x-1/2 transition-opacity duration-100"
+      className="hidden lg:flex absolute backdrop-blur-[24.295px] backdrop-filter bg-[rgba(55,57,57,0.5)] box-border content-stretch gap-[14px] items-start justify-center left-1/2 px-[6.942px] py-[8px] rounded-[15px] bottom-[35px] w-[355px] -translate-x-1/2 transition-opacity duration-100 h-[118px]"
       data-name="Hero Product Highlight"
       style={{ opacity }}
     >
@@ -289,7 +289,7 @@ function HeroProductHighlight() {
 function Container5() {
   return (
     <div
-      className="absolute box-border content-stretch flex inset-0 items-center justify-center pl-[120px] pr-[36px] py-0"
+      className="absolute box-border content-stretch flex inset-0 items-center justify-center pl-4 sm:pl-6 md:pl-8 lg:pl-[120px] pr-4 sm:pr-6 md:pr-8 lg:pr-[36px] py-0"
       data-name="Container"
     >
       <Container4 />
