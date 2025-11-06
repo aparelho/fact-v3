@@ -54,32 +54,10 @@ function Container() {
 
 function Container1() {
   return (
-    <div
-      className="content-stretch flex flex-col h-[141px] items-center relative shrink-0"
-      data-name="Container"
-    >
-      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] h-[141px] justify-center leading-[0] not-italic relative shrink-0 text-[60px] text-center text-white w-[884px]">
-        <p className="leading-[52px] hero-fucking-text">
-          Fail-proof protection against next-generation
-          counterfeits.
-        </p>
-      </div>
-    </div>
-  );
-}
-
-function Container2() {
-  return (
-    <div
-      className="content-stretch flex flex-col items-center relative shrink-0"
-      data-name="Container"
-    >
-      <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white">
-        <p className="leading-[14px] whitespace-pre">
-          Discover
-        </p>
-      </div>
-    </div>
+    <p className="hero-fucking-text font-['ABC Monument Grotesk',_sans-serif] leading-[0.9] text-[60px] text-center text-white not-italic relative">
+      Fail-proof protection against next-generation
+      counterfeits.
+    </p>
   );
 }
 
@@ -92,22 +70,18 @@ function Component1() {
   };
 
   return (
-    <div
-      className="backdrop-blur-[25px] backdrop-filter bg-[rgba(23,23,23,0.5)] box-border content-stretch flex items-center justify-center px-[22.4px] py-[17.5px] relative rounded-[18px] shrink-0 cursor-pointer"
-      data-name="Component 1"
+    <button
+      className="backdrop-blur-[25px] backdrop-filter bg-[rgba(23,23,23,0.5)] font-['ABC_Monument_Grotesk',_sans-serif] text-[14px] text-white text-center px-[22.4px] py-[17.5px] rounded-[18px] cursor-pointer border-none"
       onClick={handleDiscoverClick}
     >
-      <Container2 />
-    </div>
+      Discover
+    </button>
   );
 }
 
 function Container3() {
   return (
-    <div
-      className="basis-0 content-stretch flex flex-col gap-px grow items-center min-h-px min-w-px relative shrink-0"
-      data-name="Container"
-    >
+    <div className="flex flex-col gap-2 items-center">
       <Container1 />
       <Component1 />
     </div>
@@ -116,15 +90,8 @@ function Container3() {
 
 function Container4() {
   return (
-    <div
-      className="basis-0 grow min-h-px min-w-px shrink-0 sticky top-0"
-      data-name="Container"
-    >
-      <div className="flex flex-row items-center size-full">
-        <div className="box-border content-stretch flex gap-[332px] items-center pl-0 pr-[89px] relative w-full">
-          <Container3 />
-        </div>
-      </div>
+    <div className="basis-0 grow min-h-px min-w-px shrink-0 sticky top-0 flex flex-row items-center justify-center size-full">
+      <Container3 />
     </div>
   );
 }
@@ -307,7 +274,7 @@ function HeroProductHighlight() {
 function Container5() {
   return (
     <div
-      className="absolute box-border content-stretch flex inset-0 items-center justify-center pl-[120px] pr-[36px] py-0"
+      className="absolute box-border content-stretch flex inset-0 items-center justify-center pl-[20px] pr-[20px] py-0 hero-padding"
       data-name="Container"
     >
       <Container4 />
@@ -411,7 +378,7 @@ function Container7() {
       data-name="Container"
     >
       <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#322d2a] text-[14px] text-nowrap tracking-[0.14px]">
-        <p className="leading-[14px] whitespace-pre">
+        <p className="leading-[1] whitespace-pre">
           Learn More
         </p>
       </div>
@@ -3342,7 +3309,7 @@ function Column() {
 function Container103() {
   return (
     <div
-      className="content-stretch flex flex-col items-center relative shrink-0"
+      className="content-stretch flex flex-col items-center relative shrink-0 how-it-works-section"
       data-name="Container"
       style={{ gap: "3.17vw", width: "95.77vw" }}
     >
@@ -3764,7 +3731,7 @@ function Blur37() {
       data-name="Blur"
     >
       <div className="absolute flex flex-col font-['ABC Monument Grotesk',_sans-serif] h-[21px] justify-center leading-[0] left-[calc(50%+0.183px)] not-italic text-[#cdcccb] text-[15px] text-center top-[9.5px] tracking-[-0.158px] translate-x-[-50%] translate-y-[-50%] w-[54.366px]">
-        <p className="leading-[18px]">Full</p>
+        <p className="leading-[1.2]">Full</p>
       </div>
     </div>
   );
@@ -3777,7 +3744,7 @@ function Blur38() {
       data-name="Blur"
     >
       <div className="absolute flex flex-col font-['ABC Monument Grotesk',_sans-serif] h-[21px] justify-center leading-[0] left-[calc(50%+0.377px)] not-italic text-[#cdcccb] text-[15px] text-center top-[9.75px] tracking-[-0.158px] translate-x-[-50%] translate-y-[-50%] w-[95px]">
-        <p className="leading-[18px]">Traceability</p>
+        <p className="leading-[1.2]">Traceability</p>
       </div>
     </div>
   );
@@ -3882,7 +3849,7 @@ function Blur39() {
       data-name="Blur"
     >
       <div className="absolute flex flex-col font-['ABC Monument Grotesk',_sans-serif] h-[39px] justify-center leading-[0] left-[calc(50%+18.327px)] not-italic text-[#cdcccb] text-[15px] text-center top-[9.04px] tracking-[-0.158px] translate-x-[-50%] translate-y-[-50%] w-[207px]">
-        <p className="leading-[18px]">
+        <p className="leading-[1.2]">
           {`Integrate with `}
           <br aria-hidden="true" />
           your stack
@@ -4035,7 +4002,7 @@ function Container151() {
       data-name="Container"
     >
       <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
-        <p className="leading-[19px] whitespace-pre">
+        <p className="leading-[1.28] whitespace-pre">
           2025 FACT LLC.
         </p>
       </div>
@@ -4073,7 +4040,7 @@ function Component2() {
       data-name="Component 2"
     >
       <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
-        <p className="leading-[19px] whitespace-pre">
+        <p className="leading-[1.28] whitespace-pre">
           Linkedin
         </p>
       </div>
@@ -4110,7 +4077,7 @@ function Component27() {
       data-name="Component 2"
     >
       <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
-        <p className="leading-[19px] whitespace-pre">Medium</p>
+        <p className="leading-[1.28] whitespace-pre">Medium</p>
       </div>
     </div>
   );
@@ -4169,7 +4136,7 @@ function Component28() {
       data-name="Component 2"
     >
       <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
-        <p className="leading-[19px] whitespace-pre">
+        <p className="leading-[1.28] whitespace-pre">
           Terms of Use
         </p>
       </div>
@@ -4217,7 +4184,7 @@ function Component29() {
       data-name="Component 2"
     >
       <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
-        <p className="leading-[19px] whitespace-pre">
+        <p className="leading-[1.28] whitespace-pre">
           Privacy Policy
         </p>
       </div>
@@ -4265,7 +4232,7 @@ function Component30() {
       data-name="Component 2"
     >
       <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
-        <p className="leading-[19px] whitespace-pre">Support</p>
+        <p className="leading-[1.28] whitespace-pre">Support</p>
       </div>
     </div>
   );
@@ -4300,7 +4267,7 @@ function Component31() {
       data-name="Component 2"
     >
       <div className="flex flex-col font-['ABC Monument Grotesk',_sans-serif] justify-center leading-[0] max-h-[19.01px] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[#8a8784] text-[14.8px] text-nowrap tracking-[-0.158px] uppercase">
-        <p className="leading-[19px] whitespace-pre">
+        <p className="leading-[1.28] whitespace-pre">
           TRUST CENTER
         </p>
       </div>

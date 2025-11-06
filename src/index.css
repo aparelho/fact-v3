@@ -2805,4 +2805,206 @@ html, html * {
 .hero-fucking-text {
   font-size: calc(3.5vw + 4px) !important;
   line-height: 0.9;
+  max-width: 70vw;
+  margin-bottom: 2vw;
+}
+
+/* Mobile responsive styles for 600px and below */
+@media (max-width: 600px) {
+  /* Hero section text */
+  .hero-fucking-text {
+    font-size: 40px !important;
+    max-width: 95vw !important;
+  }
+
+  /* Hero container padding - 10px on both sides mobile */
+  .hero-padding {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  /* Hide How it Works section on mobile */
+  .how-it-works-section {
+    display: none !important;
+  }
+
+  /* Contact button hide */
+  .mobile\:hidden {
+    display: none !important;
+  }
+
+  /* Header gaps and spacing */
+  .mobile\:gap-\[16px\] {
+    gap: 16px !important;
+  }
+
+  .mobile\:pl-\[12px\] {
+    padding-left: 12px !important;
+  }
+
+  /* Hero button margin top */
+  .mobile\:mt-\[12px\] {
+    margin-top: 12px !important;
+  }
+
+  /* NewsSection vertical stack and sizing */
+  .mobile\:flex-col {
+    flex-direction: column !important;
+  }
+
+  .mobile\:w-full {
+    width: 100% !important;
+  }
+
+  .mobile\:pb-\[32px\] {
+    padding-bottom: 32px !important;
+  }
+
+  /* Force news container to vertical stack */
+  .section--news [data-name="Container"] {
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    gap: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* News card outer container - override vw widths to full width */
+  .section--news [data-name="Component 9"],
+  .section--news [data-name="Component 20"],
+  .section--news [data-name="Component 21"],
+  .section--news [data-name="Component 22"] {
+    width: 100% !important;
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Override inline styles on image divs */
+  .section--news [data-name="Component 9"] > div,
+  .section--news [data-name="Component 20"] > div,
+  .section--news [data-name="Component 21"] > div,
+  .section--news [data-name="Component 22"] > div {
+    width: 100% !important;
+  }
+
+  /* Override image container widths from inline styles */
+  .section--news div[style*="24.34vw"] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* NEWS title and subtitle */
+  .section--news [data-name="Heading 1"] {
+    font-size: 20px !important;
+  }
+
+  .section--news [data-name="Heading 1"] > div {
+    font-size: 20px !important;
+  }
+
+  .section--news [data-name="Heading 1"] p {
+    font-size: 20px !important;
+  }
+
+  /* Get the latest updates text */
+  .section--news [data-name="Container"] > div:nth-child(2) {
+    font-size: 20px !important;
+  }
+
+  .section--news > div > div > div:last-of-type {
+    font-size: 20px !important;
+  }
+
+  /* News card headings - override vw font sizes and line-height */
+  .section--news [data-name="Heading 3"] {
+    width: 100% !important;
+  }
+
+  .section--news [data-name="Heading 3"] > div {
+    font-size: 20px !important;
+    line-height: 1.1 !important;
+    width: 100% !important;
+  }
+
+  /* News card images - full width with square aspect ratio */
+  .section--news [data-name*="png"],
+  .section--news [data-name*="jpg"] {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 1 !important;
+    max-width: 100% !important;
+  }
+
+  /* News section padding */
+  .section--news > div > div {
+    padding: 7.94vw 10px !important;
+  }
+
+  /* FightCounterfeitSection - single column layout */
+  /* Override absolute positioning and flex rows to columns */
+  div[data-name="➕ Grid Section"] {
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+  }
+
+  div[data-name="➕ Grid Section"] > div {
+    position: relative !important;
+    left: 0 !important;
+    right: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  /* Override flex-row to flex-col for all layout containers */
+  div[data-name="➕ Grid Section"] .flex-row {
+    flex-direction: column !important;
+  }
+
+  /* Make all images full width with aspect ratio */
+  div[data-name="➕ Grid Section"] img,
+  div[data-name="➕ Grid Section"] [data-name*="png"],
+  div[data-name="➕ Grid Section"] [data-name*="jpg"] {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: auto !important;
+    max-width: 100% !important;
+  }
+
+  /* Override all font sizes to 19px */
+  div[data-name="➕ Grid Section"] div[style*="fontSize"],
+  div[data-name="➕ Grid Section"] [style*="fontSize"] {
+    font-size: 19px !important;
+    line-height: 1.2 !important;
+  }
+
+  /* Reset inline widths for text containers */
+  div[data-name="➕ Grid Section"] div[style*="width: 21.56vw"],
+  div[data-name="➕ Grid Section"] div[style*="width"],
+  div[data-name="➕ Grid Section"] div[style*="right"] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Features, Platform, and Case Studies section all text elements */
+  .section--features div[style*="fontSize"],
+  .section--platform div[style*="fontSize"],
+  .section--case-studies div[style*="fontSize"],
+  .section--features p,
+  .section--platform p,
+  .section--case-studies p,
+  .section--features span,
+  .section--platform span,
+  .section--case-studies span {
+    font-size: 16px !important;
+  }
+
+  /* FAQ section scaling and spacing */
+  #faq {
+    /* min-height: 200vh !important; */
+    transform: scale(2.5);
+    padding-bottom: 60px;
+    margin-top: 200px;
+  }
 }
